@@ -4,6 +4,7 @@
   "description": "my portfolio app",
   "main": "index.js",
   "scripts": {
+    "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Tokle89/portfolio/issues"
   },
-  "homepage": "https://github.com/Tokle89/portfolio#readme"
+  "homepage": "https://github.com/Tokle89/portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.69.5",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2"
+  }
 }
